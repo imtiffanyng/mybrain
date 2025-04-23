@@ -1,15 +1,14 @@
 # 🎮 Random Number Guessing Game 🎮
-# import tool to create random number guessing game
+#
 import random
 # define constants
-# lowest number
 min_number = 1
 # highest number
 max_number =  600
 # maximum number of guesses
 max_guess = 8
 #
-# create number game parameters
+# number game parameters
 def number_game():
     random_number = int(random.triangular(min_number, max_number + 1, max_number))
     attempt_number = 0
@@ -28,7 +27,7 @@ def number_game():
             print(f'input must be between {min_number} and {max_number}. try again.')
             continue
         attempt_number += 1
-# display hint message for user 
+# hint message for user 
         if attempt < random_number:
             print('too low, guess again.')
         elif attempt > random_number:
