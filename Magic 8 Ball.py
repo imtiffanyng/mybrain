@@ -1,5 +1,3 @@
-# write a program that shows random magic 8 ball responses
-#
 # define file name
 magic8 = '/Users/tiffanynguyen/Documents/8ballresponses.txt'
 # verify that the file can be read
